@@ -1,0 +1,124 @@
+baseURL = "./"
+languageCode = "en-us"
+title = "Daniel Hey"
+theme = "avicenna"
+googleAnalytics = "UA-144184844-1"
+timeout=3000
+
+
+[params]
+  subtitle= "PhD Student"
+#   interests="Asteroseismology, statistics, binary stars"
+#   cv_name= "HadiSinaee_CV.pdf"
+#   blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "University of Sydney"
+  position = "PhD Student"
+  contact = "daniel.hey@sydney.edu.au"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/danhey"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/danhey__"
+
+
+[[params.introduction.paragraph]]
+  text="""I'm Dan Hey, a PhD student at the University of Sydney working on __asteroseismology__ – the study of stellar pulsations. 
+  Using the Kepler, TESS, and Gaia space satellites, I investigate the abundance and population statistics of pulsating __A/F 
+  type stars__, including the δ Scuti and roAp stars. I am particularly interested in using pulsations as a clock to observe 
+  orbital companions, as well as using __eclipsing binaries__ to obtain precise fundamental parameters. Besides astronomy, 
+  I am passionate about open-source code, mango icecream, bouldering, and figure skating.
+   """
+
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Maelstrom"
+		description  = "maelstrom is a set of custom PyMC3 Models and solvers for modelling binary orbits through the phase modulation technique."
+		project_page = "https://danhey.github.io/maelstrom/"
+		code_link = "https://github.com/danhey/maelstrom"
+
+ [[params.projects.project]]
+		name = "Echelle"
+		description  = "echelle is a fun Python package for plotting and interacting with echelle diagrams, which are stacked power spectra of a star's light curve."
+		project_page = "https://github.com/danhey/echelle"
+		code_link = "https://github.com/danhey/echelle"
+		# blog_link = ""
+
+ [[params.projects.project]]
+		name = "CMDTess"
+		description  = "Have you ever wanted to look at the amplitude spectrum of every southern hemisphere TESS 2-minute target?"
+		# project_page = "https://myprojecthomepage.com"
+		code_link = "https://github.com/danhey/CMDTess"
+		project_page = "https://danhey.github.io/CMDTess/"
+
+ [[params.projects.project]]
+		name = "Alpha Draconis"
+		description  = "It turns out alpha Draconis is a detached eclipsing binary, and one of the brightest that we've found! Check out our NASA press release."
+		project_page = "https://www.nasa.gov/feature/goddard/2020/surprise-tess-shows-ancient-north-star-undergoes-eclipses"
+		# code_link = ""
+		blog_link = "https://www.nasa.gov/feature/goddard/2020/surprise-tess-shows-ancient-north-star-undergoes-eclipses"
+
+
+[[params.publications]]
+  year="2020"
+
+  [[params.publications.paper]]
+		name = "TOI-257b (HD 19916b): A Warm sub-Saturn on a Moderately Eccentric Orbit Around an Evolved F-type Star"
+		authors = "Brett C Addison et al."
+		dest  = ""
+		link = "https://ui.adsabs.harvard.edu/abs/2020arXiv200107345A/abstract"
+		# code_link = "https://thecoderepo.com"
+		# blog_link = ""
+
+[[params.publications]]
+  year="2019"
+
+  [[params.publications.paper]]
+		name = "Six new rapidly oscillating Ap stars in the Kepler long-cadence data using super-Nyquist asteroseismology"
+		authors = " __Daniel Hey__, et al."
+		dest  = "Monthly Notices of the Royal Astronomical Society"
+		link = "https://academic.oup.com/mnras/article-abstract/488/1/18/5518366"
+
+  [[params.publications.paper]]
+		name = "Gaia-derived luminosities of Kepler A/F stars and the pulsator fraction across the δ Scuti instability strip"
+		authors = "Simon J Murphy, __Daniel Hey__, Timothy Van Reeth, and Timothy R Bedding"
+		dest  = "Monthly Notices of the Royal Astronomical Society"
+		link = "https://academic.oup.com/mnras/article/485/2/2380/5368359"
+
+  [[params.publications.paper]]
+		name = "A Dance with Dragons: TESS reveals Draconis is a detached eclipsing binary"
+		authors = "TR Bedding, __DR Hey__, SJ Murphy"
+		dest  = "Monthly Notices of the Royal Astronomical Society"
+		link = "https://arxiv.org/abs/1910.12449"
+
+  [[params.publications.paper]]
+		name = "The period–luminosity relation for δ Scuti stars using Gaia DR2 parallaxes"
+		authors = "E Ziaali, TR Bedding, SJ Murphy, T Van Reeth, __DR Hey__"
+		dest  = "Monthly Notices of the Royal Astronomical Society"
+		link = "https://academic.oup.com/mnras/article-abstract/486/3/4348/5475657"
+
+  [[params.publications.paper]]
+		name = "Rotation and pulsation in Ap stars: first light results from TESS sectors 1 and 2"
+		authors = "MS Cunha et al."
+		dest  = "Monthly Notices of the Royal Astronomical Society"
+		link = "https://academic.oup.com/mnras/article-abstract/487/3/3523/5512602"
+
+
+[[params.publications]]
+  year="2018"
+
+  [[params.publications.paper]]
+		name = "Advances in synthetic gauge fields for light through dynamic modulation"
+		authors = "__Daniel Hey__, Enbang Li"
+		dest  = "Royal Society Open Science"
+		link = "https://mypaperishere.com"
+		# code_link = "https://thecoderepo.com"
+		blog_link = ""
+
